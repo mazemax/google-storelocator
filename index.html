@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Store locator with Panel</title>
+	
+    <script type="text/javascript" charset="utf-8"
+      src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+    <script type="text/javascript" charset="utf-8" src="js/jquery.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/store-locator.compiled.js"></script>
+    <script type="text/javascript" src="js/medicare-static-ds.js" ></script>
+    <script type="text/javascript" src="js/global_store.js" ></script>
+	
+    <link rel="stylesheet" href="css/storelocator.css">
+    <style type="text/css">
+      body { font-family: sans-serif; }
+      #map-canvas, #panel { height: 500px; }
+      #panel { width: 300px; float: left; margin-right: 10px; }
+      #panel .feature-filter label { width: 130px; }
+      p.attribution, p.attribution a { color: #666; }
+    </style>
+  </head>
+  
+  <body>
+    <h1>Store Locations</h1>
+    <div id="panel"></div>
+    <div id="map-canvas"></div>
+  </body>
+</html>
