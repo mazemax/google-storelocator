@@ -1,5 +1,5 @@
-Google Store Locator Library for Maps API
-=========================================
+Store Locator Library for Maps API
+==================================
 
 This library enables developers to easily build store locator-type applications using the Google Maps API.
 
